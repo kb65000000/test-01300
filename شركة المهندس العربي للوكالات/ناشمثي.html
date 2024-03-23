@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+        <style>
+h9 {font-size: 10px;}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Company Name - Store</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    .header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .company-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .slogan {
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .first-page-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .hi{
+        background-color: #000000;
+    }
+    .product-image {
+        max-width: 50%;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .product-options {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .product-option {
+        margin: 0 10px;
+        cursor: pointer;
+        border-radius: 10%;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        width: 60px; /* Adjust width as needed */
+        height: 60px; /* Adjust height as needed */
+    }
+
+    .product-option img {
+        max-width: 100%;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .product-option:hover, .selected {
+        transform: scale(1.1);
+    }
+
+    @media only screen and (max-width: 768px) {
+        .company-name {
+            font-size: 20px;
+        }
+
+        .slogan {
+            font-size: 14px;
+        }
+    }
+</style>
+          <style>
+    body1 {
+  font-family: Arial, sans-serif;
+}
+
+.container1 {
+  max-width: 700px;
+  margin: right;
+  padding: 10px;
+}
+
+.header1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content1 {
+  padding: 2px;
+  background-color: #666666;
+  border-radius: 50px;
+}
+
+.body-text1 {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.bullet-list1 {
+  margin-top: px;
+}
+
+.bullet-list li1 {
+  margin-bottom: 1px;
+}
+  .content1 {
+    text-align: right; /* Align content to the right */
+  }
+</style>
+
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    .header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .company-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .slogan {
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .first-page-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .hi{
+        background-color: #000000;
+    }
+    .product-image {
+        max-width: 50%;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .product-options {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .product-option {
+        margin: 0 10px;
+        cursor: pointer;
+        border-radius: 10%;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        width: 60px; /* Adjust width as needed */
+        height: 60px; /* Adjust height as needed */
+    }
+
+    .product-option img {
+        max-width: 100%;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .product-option:hover, .selected {
+        transform: scale(1.1);
+    }
+
+    @media only screen and (max-width: 768px) {
+        .company-name {
+            font-size: 20px;
+        }
+
+        .slogan {
+            font-size: 14px;
+        }
+    }
+</style>
+
+
+</head>
+<body>
+
+<header class="header">
+    <div class="company-name"><a href="hiiii.html">شركة المهندس العربي للوكالات</a></div>
+    <div class="slogan">خل الخشب</div>
+</header>
+
+<div class="container">
+    <div class="first-page-content">
+        <img src="images/Factory-Natural-Wood-Vinegar-Pyroligneous-Acid-Improvide-Air.jpg" alt="Product Image" class="product-image">
+        <div class="product-options">
+            <div class="product-option selected" onclick="changeImage('1L')">
+                <img src="images/b9687a29-4191-4f0d-95e3-9043fdff4c6e.jpg" alt="1L Option">
+            </div>
+            <div class="product-option" onclick="changeImage('5L')">
+                <img src="images/1705c7dc-c441-4b4b-b5e2-1287e6ac5e07.jfif" alt="5L Option">
+            </div>
+            <div class="product-option" onclick="changeImage('20L')">
+                <img src="images/a9b0587f-c7ea-4832-b1b8-72a3cf41969d.jfif" alt="20L Option">
+                <p>1 لتر</p>
+            </div>
+        </div>
+
+
+</div>
+
+<script>
+    function changeImage(size) {
+        var image = document.querySelector('.product-image');
+        switch (size) {
+            case '1L':
+                image.src = 'images/4a1901c1-95b5-44a9-a5a2-c0002d3b8993.jfif';
+                break;
+            case '5L':
+                image.src = 'images/1705c7dc-c441-4b4b-b5e2-1287e6ac5e07.jpg';
+                break;
+            case '20L':
+                image.src = 'images/c0bf6a29-c91e-402c-93cc-31d3330e3566.jfif';
+                break;
+        }
+        updateOptions(size);
+        updateProductDetails(size);
+    }
+
+    function updateOptions(selectedSize) {
+        var options = document.querySelectorAll('.product-option');
+        options.forEach(function(option) {
+            option.classList.remove('selected');
+        });
+
+        var selectedOption = document.querySelector('.product-option img[alt="' + selectedSize + ' Option"]');
+        selectedOption.parentElement.classList.add('selected');
+    }
+
+    function updateProductDetails(size) {
+        var productTitle = document.querySelector('.product-title');
+        var productDescription = document.querySelector('.product-description');
+
+        switch (size) {
+            case '1L':
+                productTitle.textContent = 'JD9.99 - 1 لتر';
+                productDescription.textContent = 'وصف المنتج لحجم 1 لتر';
+                break;
+            case '5L':
+                productTitle.textContent = 'JD15.99 - 5 لتر';
+                productDescription.textContent = 'وصف المنتج لحجم 5 لتر';
+                break;
+            case '20L':
+                productTitle.textContent = 'JD49.99 - 20 لتر';
+                productDescription.textContent = 'وصف المنتج لحجم 20 لتر';
+                break;
+        }
+    }
+    <nav>
+    <ul>
+        <li><a href="#vegetable-pan">الخضروات</a></li>
+        <li><a href="#fruit-basket">الفواكه</a></li>
+        <li><a href="#meat-section">اللحوم</a></li>
+    </ul>
+</nav>
+
+
+
+
+
+<section id="fruit-basket">
+    <h2>سلة الفواكه</h2>
+    <p>هذا القسم مخصص لسلة الفواكه.</p>
+</section>
+
+<section id="meat-section">
+    <h2>قسم اللحوم</h2>
+    <p>هذا القسم مخصص للحوم
+    نغرلاتن
+    .</p>
+      <p>هذا القسم مخصص للحوم
+    نغرلاتن
+    .</p>
+      <p>هذا القسم مخصص للحوم
+    نغرلاتن
+    .</p>
+      <p>هذا القسم مخصص للحوم
+    نغرلاتن
+    .</p>
+</section>
+
+</script>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        direction: rtl; /* يُضبط اتجاه النص إلى اليمين */
+    }
+
+    /* تحديد الأنماط للأقسام */
+    section {
+        height: 100vh;
+        display: ;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    #vegetable-pan {
+        background-color: lightgreen;
+    }
+
+    #fruit-basket {
+        background-color: lightblue;
+    }
+
+    #meat-section {
+        background-color: lightcoral;
+    }
+
+    /* تحديد الأنماط للروابط التنقل */
+    nav {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        background-color: lightgray;
+        border-radius: 5px;
+    }
+</style>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .content {
+            flex: 1;
+            /* Your content styles here */
+            text-align: center;
+            padding: 20px;
+        }
+        .social-icons {
+            text-align: center;
+            margin-bottom: 1px;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 0px;
+        }
+        .social-icons img {
+            width: 25px; /* Adjust the size of the icons */
+            height: auto;
+        }
+    </style>
+<div class="social-icons">
+        <a href="https://www.facebook.com">
+            <img src="images/2023_Facebook_icon.svg.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com">
+            <img src="images/Instagram_logo_2022.svg.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/Logo_of_Twitter.svg.png" alt="Twitter">
+        </a>
+    </div>
+
+
+
+
+<script>
+    // Smooth scrolling functionality
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
